@@ -1,4 +1,5 @@
 import numpy as np
+import cv2
 
 if __name__ == '__main__':
 
@@ -40,4 +41,28 @@ if __name__ == '__main__':
     average2 = np.mean(matrix7,1).reshape((5,1))
     matrix7 = np.subtract(matrix7,average2)
 
-    matrix8 = np.random.random((5,5)) #15 CONTINUARA....
+    matrix8 = np.random.randint(0,10,9).reshape((3,3)) #16
+    res = (np.size(matrix8[matrix8 > 5]))
+
+    size = 255
+    realsize = 400
+    foto = np.ones((size,size,3),np.uint8) *255
+
+    # tufifi = np.ones((size,size),np.uint8) * 255
+    # colour = np.flip(np.arange(0,256,256/size,np.uint8))
+    #
+    # foto[:,:,0] = tufifi
+    # foto[:, :, 1] = colour
+    # foto[:, :, 2] = colour
+    #
+    tufifiR = (np.random.random(size) * 255)
+    tufifiG = (np.random.random(size) * 255)
+    tufifiB = (np.random.random(size) * 255)
+
+    foto[:,:,0] = tufifiB
+    foto[:,:,1] = tufifiG
+    foto[:,:,2] = tufifiR
+
+    foto = cv2.resize(foto,(realsize,realsize)) #si quieres mas resolucion normaliza de 0 a 1 y multiplica y haz miierdas yokese pregunta ajony/profe
+    cv2.imshow("foto",foto)
+    cv2.waitKey()
