@@ -5,11 +5,11 @@ if __name__ == '__main__':
 
     img = cv2.imread('patata.png',cv2.IMREAD_ANYCOLOR)
 
-    gauss_matrix = cv2.getGaussianKernel((3,3),-1)
+    gauss_matrix = [[1,4,1],[4,16,4],[1,4,1]]
 
     zeros_m = np.zeros(img.shape[0]+1,img.shape[1]+1)
 
-    zeros_m[1:img.shape[0],1:img.shape[1]] = img[:]
+    zeros_m[1:-1,1:-1] = img[:]
 
     final_matrix = zeros_m
 
