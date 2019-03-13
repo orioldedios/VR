@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2ac455c-fa0d-4251-9f09-3a2f062ebd09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ejercicio 3/Filtro bilateral.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ejercicio 3/bilateral.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ejercicio 3/Sobel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +29,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Filtro bilateral.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtro bilateral.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Filtros (clase4).py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtros (clase4).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="7" selection-end-line="14" />
+            <state relative-caret-position="-21">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -42,26 +53,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Filtro bilateral.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtro bilateral.py">
+      <file leaf-file-name="Sobel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ejercicio 3/Sobel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="98">
+              <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bilateral.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejercicio 3/bilateral.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="patata.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ejercicio 3/patata.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -82,12 +83,14 @@
         <option value="$PROJECT_DIR$/ejercicio 3/numpy exercices.py" />
         <option value="$PROJECT_DIR$/ejercicio 3/Filtros (clase4).py" />
         <option value="$PROJECT_DIR$/ejercicio 3/Filtro bilateral.py" />
+        <option value="$PROJECT_DIR$/ejercicio 3/venv/Sobel.py" />
+        <option value="$PROJECT_DIR$/ejercicio 3/Sobel.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-24" />
-    <option name="y" value="86" />
+    <option name="x" value="-25" />
+    <option name="y" value="85" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -96,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,11 +122,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -142,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Filtro bilateral">
+  <component name="RunManager" selected="Python.Sobel">
     <configuration name="Filtro bilateral" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="VR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,6 +183,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Sobel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="VR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ejercicio 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ejercicio 3/Sobel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="numpy exercices" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="VR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,9 +223,11 @@
       <item itemvalue="Python.numpy exercices" />
       <item itemvalue="Python.Filtros (clase4)" />
       <item itemvalue="Python.Filtro bilateral" />
+      <item itemvalue="Python.Sobel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Sobel" />
         <item itemvalue="Python.Filtro bilateral" />
         <item itemvalue="Python.Filtros (clase4)" />
         <item itemvalue="Python.numpy exercices" />
@@ -245,7 +269,6 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
@@ -254,22 +277,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22526042" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -286,6 +299,42 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/numpy exercices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtros (clase4).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" selection-start-line="7" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/bilateral.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/patata.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtro bilateral.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicio 3/numpy exercices.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -329,9 +378,7 @@
     <entry file="file://$PROJECT_DIR$/ejercicio 3/patata.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicio 3/venv/Filtro Bilateral.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/venv/Filtro Bilateral.py" />
     <entry file="file://$PROJECT_DIR$/ejercicio 3/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -378,6 +425,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/patata.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/bilateral.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/venv/Sobel.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/Valve_original_(1).PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ejercicio 3/numpy exercices.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -388,26 +447,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicio 3/patata.png">
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/valve.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtros (clase4).py">
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtro bilateral.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="7" selection-end-line="14" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicio 3/bilateral.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtro bilateral.py">
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/Filtros (clase4).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="-21">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ejercicio 3/Sobel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
