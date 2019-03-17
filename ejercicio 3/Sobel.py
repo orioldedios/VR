@@ -53,12 +53,14 @@ if __name__ == '__main__':
 
             angles_matrix[i -zeros_margin,j -zeros_margin] = np.int32(np.rad2deg(np.arctan2(Gy,Gx)))
 
-            # if(angles_matrix[i -zeros_margin,j -zeros_margin] < 180.0):
-            #     angles_matrix[i - zeros_margin, j - zeros_margin] += 180
+            if (angles_matrix[i -zeros_margin, j -zeros_margin] < 0.0):
+                angles_matrix[i - zeros_margin, j - zeros_margin] += 180
 
     ##ANGLES------------------------------------------------------------------------
 
     print(angles_matrix)
+
+    
 
 
     cv2.imshow('valve', np.uint8(img))
