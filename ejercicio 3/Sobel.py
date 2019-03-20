@@ -3,7 +3,7 @@ import cv2
 
 
 def CompareModule(a, b, c):
-    if b > a or b > c:
+    if b > a and b > c:
         res = b
     else:
         res = 0
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
             angles_matrix[i -zeros_margin,j -zeros_margin] = np.int32(np.rad2deg(np.arctan2(Gy,Gx)))
 
-            if (angles_matrix[i -zeros_margin, j -zeros_margin] < 0.0):
+            if angles_matrix[i -zeros_margin, j -zeros_margin] < 0.0:
                 angles_matrix[i - zeros_margin, j - zeros_margin] += 180
 
     ##ANGLES------------------------------------------------------------------------
@@ -121,8 +121,8 @@ if __name__ == '__main__':
 
     sure_mat = np.zeros((img.shape[0], img.shape[1]))
 
-    th_min = 30
-    th_max = 50
+    th_min = 50
+    th_max = 70
 
     for j in range(0, img.shape[1]):
         for i in range(0, img.shape[0]):
@@ -158,4 +158,6 @@ if __name__ == '__main__':
 
 
     cv2.imshow('valve', np.uint8(img))
+
+    cv2.imshow('Result', np.uint8(cv2.Canny(cv2.imread('valve.PNG', cv2.IMREAD_GRAYSCALE), 150, 200)))
     cv2.waitKey(0)
