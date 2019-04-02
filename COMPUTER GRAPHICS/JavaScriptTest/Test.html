@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script>
+            function sayHello()
+            {
+                alert("hello world")
+            }
+
+            class MyClass
+            {
+                constructor()
+                {
+                    this.atribute1 = 0;
+                    this.atribute2="ABC";
+                }
+                exampleMethod()
+                {
+                    alert(this.atribute3)
+                }
+            }
+
+            obj = new MyClass()
+            obj.atribute1 = 222
+            obj.atribute2 = 666
+            obj.atribute3 = 989
+
+            var verdadero = true
+            var casi10 = 9.99
+            var patata = "POTAOES"
+
+            document.write("ESCRIBIIIIIIIIIIIIIIIIIIIIIIIIIIIIR")
+
+            function daleCañaalaCajita()
+            {
+                if(verdadero && patata == "POTAOES")
+                    alert(document.myForm.naMe.value)
+                else
+                    alert("FAAAAAAAAAALSOOOOOO")
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>This IS WEB PAGE BODY</p>
+        <input type="button" onclick="sayHello()" value="SayHello"/>
+        <input type="button" onclick="obj.exampleMethod()" value="alalalla"/>
+        <form name="myForm" onsubmit="daleCañaalaCajita()">
+            <tr>
+                <td align="right">NAME</td>
+                <td><input type="text" name = "naMe"></td>
+            </tr>
+        </form>
+    </body>
+
+
+
+</html>
